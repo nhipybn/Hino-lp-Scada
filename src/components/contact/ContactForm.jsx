@@ -88,7 +88,7 @@ const ContactForm = () => {
             viewport={{ once: true }}
             className="bg-white rounded-2xl p-8 shadow-lg max-h-[1000px] overflow-y-auto"
           >
-            <h2 className="text-xl font-bold text-gray-900 mb-8 text-primary">Điền thông tin bên dưới để nhận tư vấn từ chuyên gia hoặc nhận tải checklist hạng mục triển khai</h2>
+            <h2 className="text-xl font-bold text-gray-900 mb-8 text-primary">Điền thông tin bên dưới để nhận tư vấn</h2>
             <div className='wrapper-form' ref={formWrapperRef}/>
           </motion.div>
         </div>

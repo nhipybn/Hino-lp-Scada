@@ -18,12 +18,10 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-6">Liên kết nhanh</h3>
             <ul className="space-y-3 text-white text-sm">
-              <li><a href="#about" className="hover:text-yellow-300 transition-colors">Giới thiệu</a></li>
-               <li><a href="#nghi-dinh-58" className="hover:text-yellow-300 transition-colors">HINO GATEWAY 378</a></li>
-              <li><a href="#nghi-dinh-58" className="hover:text-yellow-300 transition-colors">Nghị định 378</a></li>
-              <li><a href="#system-diagram" className="hover:text-yellow-300 transition-colors">Hệ thống</a></li>
-             
-              <li><a href="#du-an" className="hover:text-yellow-300 transition-colors">Case Study</a></li>
+              <li><a href="#home" className="hover:text-yellow-300 transition-colors">Home</a></li>
+               <li><a href="#about" className="hover:text-yellow-300 transition-colors">About us</a></li>
+              <li><a href="#giai phap" className="hover:text-yellow-300 transition-colors">Giải pháp</a></li>
+              <li><a href="#du-an" className="hover:text-yellow-300 transition-colors">Case study</a></li>
               <li><a href="#contact" className="hover:text-yellow-300 transition-colors">Liên hệ</a></li>
             </ul>
           </div>
@@ -67,16 +65,18 @@ const Footer = () => {
           
 
           {/* Services */}
-          <div>
-            <h3 className="text-lg font-semibold mb-6">Dịch vụ khác</h3>
-            <ul className="space-y-3 text-white text-sm">
-              <li>• Hệ thống SCADA</li>
-              <li>• Điện mặt trời</li>
-              <li>• Tự động hóa nhà máy</li>
-              <li>• Tư vấn kỹ thuật</li>
-            </ul>
-          </div>
-
+         <div>
+  <h3 className="text-lg font-semibold mb-6">Dịch vụ khác</h3>
+  <ul className="space-y-3 text-white text-sm">
+    <li>
+      <a href="https://gateway378.hino-systechvn.com/" className="hover:text-yellow-300 transition-colors">
+        • HINO GATEWAY 378
+      </a>
+    </li>
+    <li>• Tự động hóa nhà máy</li>
+    <li>• Tư vấn kỹ thuật</li>
+  </ul>
+</div>
         </div>
       </div>
     </footer>
