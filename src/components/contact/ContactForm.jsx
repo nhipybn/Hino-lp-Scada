@@ -10,7 +10,7 @@ const ContactForm = () => {
     const script = document.createElement('script');
     script.id = '_bownow_cs_sid_de97cf892eef2fad1693';
     script.charset = 'utf-8';
-    script.src = 'https://contents.bownow.jp/forms/sid_de97cf892eef2fad1693/trace.js';
+    script.src = 'https://contents.bownow.jp/forms/sid_fcffccc68aa102d77cc0/trace.js';
     
     formWrapperRef.current.appendChild(script);
   }, []);
