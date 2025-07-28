@@ -8,7 +8,7 @@ const ContactForm = () => {
     if(typeof window === 'undefined' || !formWrapperRef.current) return;
     
     const script = document.createElement('script');
-    script.id = '_bownow_cs_sid_de97cf892eef2fad1693';
+    script.id = '_bownow_cs_sid_fcffccc68aa102d77cc0';
     script.charset = 'utf-8';
     script.src = 'https://contents.bownow.jp/forms/sid_fcffccc68aa102d77cc0/trace.js';
     
