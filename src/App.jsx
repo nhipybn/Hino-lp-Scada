@@ -19,7 +19,6 @@ function App() {
         <ImpressiveStats />
         <AboutHero />
         <CompanyValues />
-      
         <Zalo /> 
         <SolutionGrid />
         <FeaturedProjects />
